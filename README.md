@@ -1,3 +1,5 @@
+# Practica 3 
+
 Esta práctica consiste en desarrollar una API REST para gestionar un carrito de compra utilizando Spring Boot y JPA.
 
 El sistema permite:
@@ -10,7 +12,7 @@ El sistema permite:
 
 Los datos se almacenan en una base de datos mediante Spring Data JPA.
 
-# Tabla de EndPoints: 
+## Tabla de EndPoints:
 
 | Método | Endpoint                               | Descripción                           | Body (JSON)    | Respuesta esperada             |
 | ------ | -------------------------------------- | ------------------------------------- | -------------- | ------------------------------ |
@@ -36,7 +38,7 @@ LineaCarrito :
 "Coste": 20
 }
 
-# Test
+## Test
 
 Se ha añadido un test de integración simple para comprobar que la creación de carritos funciona correctamente.
 

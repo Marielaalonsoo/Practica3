@@ -29,8 +29,8 @@ public class LineaCarrito {
     // metodo para calcular el precio total  de la linea
 
 
-    public void costelinea(){
-        this.Coste= this.PrecioUnitario * this.NumeroUnidades;
+    public long costelinea(){
+       return (this.Coste= this.PrecioUnitario * this.NumeroUnidades) ;
     }
 
 }
